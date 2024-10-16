@@ -1,0 +1,81 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Automotors</title>
+     <!-- Agregar Bootstrap desde CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <div class="header">
+        <div class="logo">
+          <img src="logo.png.jpg" alt="Logo Servicio Automotriz Automotors">
+        </div>
+        <div class="eslogan">Tecnologias Confiables</div>
+        <nav>
+          <a href="inicio.html#Inicio" class="nav-link" onclick="setActiveLink(event)">Inicio</a>
+          <a href="Quienes_somos.html#Quienes_somos" class="nav-link" onclick="setActiveLink(event)">Quiénes somos</a>
+          <a href="Servicios.html#Servicios" class="nav-link" onclick="setActiveLink(event)">Servicios</a>
+          <a href="Video.html#Conocenos" class="nav-link" onclick="setActiveLink(event)">Conocenos</a>
+          <a href="Formulario.html#Formulario" class="nav-link" onclick="setActiveLink(event)">Contactanos</a>
+        </nav>
+      </div>
+
+      <!-- FORMULARIO -->
+      <div class="form-container" id="Formulario">
+        <h3>Formulario de Contacto</h3>
+        <form action="https://formspree.io/f/{tu-id-unico}" method="POST">
+          <!-- Nombre Completo -->
+          <label for="nombre">Nombre Completo:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo" required>
+
+          <!-- Sexo -->
+          <label>Sexo:</label>
+          <input type="radio" id="masculino" name="sexo" value="Masculino" required>
+          <label for="masculino">Masculino</label>
+          <input type="radio" id="femenino" name="sexo" value="Femenino" required>
+          <label for="femenino">Femenino</label>
+          <input type="radio" id="otro" name="sexo" value="Otro" required>
+          <label for="otro">Otro</label>
+
+          <!-- Fecha de Nacimiento -->
+          <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+          <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+          <!-- Email -->
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+
+          <!-- Enviar Formulario -->
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <p>Contáctanos: +(52) 481 154 89 22 | Correo: info@servicioautomotrizautomotors.com</p>
+      <p>&copy; 2024 Servicio Automotriz Automotors. Todos los derechos reservados.</p>
+    </div>
+
+     <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      // Función para activar el enlace seleccionado
+      function setActiveLink(event) {
+        const links = document.querySelectorAll('.nav-link');
+        links.forEach(link => link.classList.remove('active'));
+        event.target.classList.add('active');
+      }
+    </script>
+  </body>
+</html>
+

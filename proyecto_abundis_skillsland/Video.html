@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video - Skillsland</title>
+    <!-- Agregar Bootstrap desde CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Estilo personalizado -->
+    <style>
+      /* Cambiar color de los enlaces a blanco */
+      .navbar-nav .nav-link {
+        color: white !important;
+      }
+      .navbar-nav .nav-link:hover {
+        color: #f8f9fa !important; /* Color blanco claro al pasar el mouse */
+      }
+      /* Estilo para el ícono de usuario más grande y cuadrado */
+      .user-icon {
+        width: 80px;         /* Aumentar el tamaño de la imagen */
+        height: 80px;        /* Mantener la proporción cuadrada */
+        margin-right: 10px;
+        object-fit: cover;   /* Asegurar que la imagen se ajuste bien */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <div class="header d-flex justify-content-between align-items-center py-3">
+        <div class="logo">
+          <img src="logo.png.jpg" alt="Logo Servicio Automotriz Skillsland" class="img-fluid" style="max-width: 200px;">
+        </div>
+        <div class="eslogan font-weight-bold text-primary">Tecnologías confiables</div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="inicio.html#Inicio" class="nav-link" onclick="setActiveLink(event)">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a href="Quienes_somos.html#Quienes_somos" class="nav-link" onclick="setActiveLink(event)">Quiénes somos</a>
+              </li>
+              <li class="nav-item">
+                <a href="Servicios.html#Servicios" class="nav-link" onclick="setActiveLink(event)">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a href="Video.html#Conocenos" class="nav-link" onclick="setActiveLink(event)">Conócenos</a>
+              </li>
+              <li class="nav-item">
+                <a href="Formulario.html#Formulario" class="nav-link" onclick="setActiveLink(event)">Contáctanos</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- CONTENIDO DE VIDEO -->
+      <div class="content text-center" id="Video">
+        <h2 class="section-title">Nuestro Video</h2>
+        <p>Descubre más sobre nuestros servicios viendo nuestro video promocional.</p>
+        <iframe width="100%" height="450" src="https://www.youtube.com/embed/0ArTjUSq96E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <!-- SECCIÓN DE OPINIONES -->
+      <div class="content py-5" id="Opiniones">
+        <h2 class="section-title text-center">Lo que dicen nuestros clientes</h2>
+
+        <!-- Opinión 1 -->
+        <div class="media mb-4">
+          <div class="media-left">
+            <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" class="media-object user-icon" alt="Icono Usuario">
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">Juan Pérez</h4>
+            <p>Excelente servicio. La conversión de mi auto a híbrido fue rápida y eficiente. ¡Recomiendo completamente!</p>
+          </div>
+        </div>
+
+        <!-- Opinión 2 (Derecha) -->
+        <div class="media mb-4">
+          <div class="media-body">
+            <h4 class="media-heading">Ana Gómez</h4>
+            <p>Me ayudaron a convertir mi coche a eléctrico, y los resultados han sido increíbles. Todo el equipo es muy profesional y atento.</p>
+          </div>
+          <div class="media-right">
+            <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" class="media-object user-icon" alt="Icono Usuario">
+          </div>
+        </div>
+
+        <!-- Opinión 3 -->
+        <div class="media mb-4">
+          <div class="media-left">
+            <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" class="media-object user-icon" alt="Icono Usuario">
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">Carlos Ruiz</h4>
+            <p>Gran experiencia. Mi vehículo ahora funciona con energía eléctrica y el ahorro de gasolina es impresionante.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECCIÓN DE UBICACIÓN -->
+      <div class="content py-5" id="Ubicacion">
+        <h2 class="section-title text-center">Nuestra Ubicación</h2>
+        <p class="text-center">Nos encontramos ubicados en Monterrey, Nuevo León, México. Visítanos o contáctanos para más información sobre nuestros servicios.</p>
+        <p class="text-center"><strong>Dirección:</strong> Calle Ficticia #123, Monterrey, N.L., México</p>
+        <p class="text-center"><strong>Google Maps:</strong> <a href="https://www.google.com/maps/place/Monterrey,+Nuevo+León/@25.686614,-100.316115,12z/data=!3m1!4b1!4m6!3m5!1s0x8662b6a34c0e1b8b:0x6e9fda500a2721fb!8m2!3d25.686614!4d-100.316115" target="_blank">Ver en Google Maps</a></p>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer text-center py-4">
+      <p>Contáctanos: +(52) 481 154 89 22 | Correo: info@skillslandf.com</p>
+      <p>&copy; 2024 Skillsland. Todos los derechos reservados.</p>
+    </div>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      // Función para activar el enlace seleccionado
+      function setActiveLink(event) {
+        const links = document.querySelectorAll('.nav-link');
+        links.forEach(link => link.classList.remove('active'));
+        event.target.classList.add('active');
+      }
+    </script>
+  </body>
+</html>
+

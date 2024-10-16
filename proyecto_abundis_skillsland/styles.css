@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1e2a30; /* Fondo oscuro */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Asegura que el pie de página se mantenga al final */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #1e2a30;
+  padding: 20px;
+  color: white;
+  position: relative;
+  flex-grow: 1; /* Permite que el contenido ocupe el espacio restante */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0; /* Asegura un espaciado adecuado */
+}
+
+.header .logo img {
+  width: 200px; /* Logo más grande */
+  height: auto;
+  transition: transform 0.3s ease-in-out; /* Animación */
+}
+
+.header .logo img:hover {
+  transform: scale(1.1); /* Efecto de zoom */
+}
+
+.header .eslogan {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff; /* Azul */
+  margin-left: 20px;
+}
+
+.header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  padding-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.header nav a:hover {
+  color: #007bff;
+}
+
+.header nav a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #007bff;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.header nav a:hover::after {
+  transform: scaleX(1);
+}
+
+.header nav a.active::after {
+  transform: scaleX(1);
+}
+
+.header nav a.active {
+  color: #007bff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px; /* Espacio para evitar que el contenido se solape con el header */
+  text-align: center;
+  flex-grow: 1; /* Permite que el contenido crezca ocupando todo el espacio restante */
+  overflow-y: auto; /* Añade scroll solo si el contenido es mayor que el área visible */
+}
+
+.section-title {
+  font-size: 32px;
+  margin-top: 50px;
+  color: #007bff;
+}
+
+.content img {
+  width: 40%;
+  max-width: 300px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.content p {
+  font-size: 18px;
+  margin: 10px 0;
+  max-width: 800px;
+}
+
+.form-container {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #2c3e50;
+  border-radius: 10px;
+}
+
+.form-container h3 {
+  color: #007bff;
+  text-align: center;
+}
+
+.form-container label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;
+  color: white;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #34495e;
+  color: white;
+}
+
+.form-container input[type="radio"] {
+  margin-right: 10px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #1e2a30;
+  color: white;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-top: 20px; /* Da espacio entre el contenido y el pie de página */
+}

@@ -1,0 +1,65 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skillsland</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlazamos el archivo CSS externo -->
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <div class="header">
+        <div class="logo">
+          <img src="logo.png.jpg" alt="Logo Skillsland">
+        </div>
+        <div class="eslogan">
+          Tecnologia confiable
+        </div>
+        <nav>
+          <a href="inicio.html#Inicio" class="nav-link" onclick="setActiveLink(event)">Inicio</a>
+          <a href="Quienes_somos.html#Quienes_somos" class="nav-link" onclick="setActiveLink(event)">¿Quiénes somos?</a>
+          <a href="Servicios.html#Servicios" class="nav-link" onclick="setActiveLink(event)">Servicios</a>
+          <a href="Video.html#Conocenos" class="nav-link" onclick="setActiveLink(event)">Conocenos</a>
+          <a href="Formulario.html#Formulario" class="nav-link" onclick="setActiveLink(event)">Contáctanos</a>
+        </nav>
+      </div>
+
+      <!-- ¿QUIÉNES SOMOS? -->
+      <div class="content" id="Quienes_somos">
+        <h2 class="section-title">¿Quiénes somos?</h2>
+        <p>En <strong>Skillsland</strong>, somos una empresa innovadora dedicada a la transformación de la industria automotriz. Nuestro principal objetivo es brindar soluciones avanzadas en la conversión de vehículos a tecnologías híbridas y eléctricas, contribuyendo así a la sostenibilidad del medio ambiente y a la mejora de la eficiencia energética.</p>
+        
+        <img src="1701310917394.jpg" alt="Taller Automotriz Skillsland">
+        
+        <p>Contamos con un equipo de ingenieros y mecánicos altamente capacitados, quienes utilizan tecnología de punta y repuestos de la más alta calidad para garantizar un servicio rápido, seguro y confiable. En Skillsland, nos enorgullece ofrecer soluciones personalizadas que se adaptan a las necesidades específicas de cada cliente.</p>
+        
+        <img src="1701310918107.jpg">
+        
+        <p>Además, nos comprometemos con la mejora continua y la satisfacción total del cliente, brindando atención de calidad antes, durante y después de la conversión de su vehículo. Nuestro compromiso con la innovación y el cuidado del medio ambiente hace de Skillsland una opción líder en la industria automotriz.</p>
+
+        <h3>Capacitación y Evaluación de Nuevos Talentos</h3>
+        <p>En Skillsland, también nos enfocamos en la capacitación y el desarrollo de nuevos profesionales en el sector automotriz. Ofrecemos programas de formación especializados en las áreas de vehículos híbridos y eléctricos, brindando a los participantes los conocimientos y habilidades necesarios para destacarse en un mercado en constante evolución.</p>
+        
+        <p>Además de nuestra formación, evaluamos constantemente a nuevos talentos, asegurándonos de que todos los miembros de nuestro equipo cumplan con los más altos estándares de calidad. Si eres un apasionado del sector automotriz y buscas crecer profesionalmente, en Skillsland te brindamos las herramientas para alcanzar el éxito.</p>
+        
+        <p>¡Te invitamos a conocer más sobre nosotros y nuestros servicios! Estamos disponibles todos los días para ayudarte con lo que necesites.</p>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <p>Contáctanos: +(52) 481 154 89 22 | Correo: info@skillsland.com</p>
+      <p>&copy; 2024 Skillsland. Todos los derechos reservados.</p>
+    </div>
+
+    <script>
+      // Función para activar el enlace seleccionado
+      function setActiveLink(event) {
+        const links = document.querySelectorAll('.nav-link');
+        links.forEach(link => link.classList.remove('active'));
+        event.target.classList.add('active');
+      }
+    </script>
+  </body>
+</html>
