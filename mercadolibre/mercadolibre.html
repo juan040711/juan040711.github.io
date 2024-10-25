@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercado Libre</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"> <!-- Enlace al CSS -->
+</head>
+<body>
+  <div class="header">
+    <img alt="Mercado Libre" src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.0/mercadolibre/logo__large_plus@2x.png"/>
+    <input placeholder="Buscar productos, marcas y más..." type="text"/>
+    <div class="right">
+      <a href="#">Crea tu cuenta</a>
+      <a href="#">Ingresa</a>
+      <a href="#">Mis compras</a>
+      <a href="#"><i class="fas fa-shopping-cart"></i></a>
+    </div>
+  </div>
+  <div class="breadcrumb">
+    <a href="#">Volver al listado</a> &gt;
+    <a href="#">Celulares y Telefonía</a> &gt;
+    <a href="#">Celulares y Smartphones</a> &gt;
+    <a href="#">Motorola</a>
+  </div>
+  <div class="container">
+    <div class="left-column">
+      <img alt="Motorola ThinkPhone 5G" height="400" src="https://p1-ofp.static.pub//fes/cms/2023/09/28/simop14wztldmfnduccbbjrlkzcv0p856700.png" width="400"/>
+      <div class="thumbnails">
+        <img alt="Thumbnail 1" onclick="changeImage('https://p1-ofp.static.pub//fes/cms/2023/09/28/simop14wztldmfnduccbbjrlkzcv0p856700.png', this)" src="https://p1-ofp.static.pub//fes/cms/2023/09/28/simop14wztldmfnduccbbjrlkzcv0p856700.png"/>
+        <img alt="Thumbnail 2" onclick="changeImage('https://p1-ofp.static.pub//fes/cms/2023/09/28/rndhahba7lfyygv8djkjnuqcqzpq25162673.png', this)" src="https://p1-ofp.static.pub//fes/cms/2023/09/28/rndhahba7lfyygv8djkjnuqcqzpq25162673.png"/>
+        <img alt="Thumbnail 3" onclick="changeImage('https://p1-ofp.static.pub//fes/cms/2023/09/28/si11qkzx0oc3w3x8xmz1m0hmrawjb5507285.png', this)" src="https://p1-ofp.static.pub//fes/cms/2023/09/28/si11qkzx0oc3w3x8xmz1m0hmrawjb5507285.png"/>
+        <img alt="Thumbnail 4" onclick="changeImage('https://p3-ofp.static.pub//fes/cms/2023/09/28/n5ab0rl3j1lzcc2rubrgfgt100my8a460563.png', this)" src="https://p3-ofp.static.pub//fes/cms/2023/09/28/n5ab0rl3j1lzcc2rubrgfgt100my8a460563.png"/>
+        <img alt="Thumbnail 5" onclick="changeImage('https://p3-ofp.static.pub//fes/cms/2023/09/28/uos88qa2jv2b2ef9f3garic9nn5iod659471.png', this)" src="https://p3-ofp.static.pub//fes/cms/2023/09/28/uos88qa2jv2b2ef9f3garic9nn5iod659471.png"/>
+      </div>
+    </div>
+    <div class="right-column">
+      <h1>
+        Motorola ThinkPhone 5G Snapdragon 8+ G1 3.2GHz 256 GB Carbon Black 8 GB RAM
+      </h1>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>(16)</span>
+      </div>
+      
+      <div class="price" id="price">
+        $8,279 <sup>31</sup>
+      </div>
+      <button onclick="highlightPrice()">Resaltar Precio</button>
+
+      <div id="description" style="display:none;">
+        <p>El motorola Thinkphone es un telewfono inspirado en la linea Thinkpad de lenovo es muy versatil y duradero gracias a sus carcasa hechas de Aramida de grado industrial ademas de su color negro muy llamativo</p>
+      </div>
+      <button onclick="toggleDescription()">Mostrar/Ocultar Descripción</button>
+
+      <div class="discount">31% OFF</div>
+      <div class="installments">en 15 meses sin intereses de $551 <sup>96</sup> IVA incluido</div>
+      <div class="delivery">Llega gratis entre el martes y el miércoles por ser tu primera compra</div>
+      <div class="stock">Stock disponible</div>
+      <div class="quantity">Cantidad: 1 unidad (+50 disponibles)</div>
+    </div>
+  </div>
+  <script src="script.js"></script> <!-- Enlace al JavaScript -->
+</body>
+</html>
+
