@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercado Libre - Información de Smartphones</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <img alt="Logo de Mercado Libre" src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.0/mercadolibre/logo__large_plus@2x.png"/>
+    <input placeholder="Buscar productos, marcas y más..." type="text"/>
+    <div class="right">
+      <a href="#">Crea tu cuenta</a>
+      <a href="#">Ingresa</a>
+      <a href="#">Mis compras</a>
+      <a href="#"><i class="fas fa-shopping-cart"></i></a>
+    </div>
+  </header>
+
+  <div class="container">
+    <aside>
+      <button onclick="loadContent('motorola.txt')">Información sobre Motorola</button>
+      <button onclick="loadContent('samsung.txt')">Información sobre Samsung</button>
+      <button onclick="loadContent('apple.txt')">Información sobre Apple</button>
+    </aside>
+
+    <main id="content">
+      <h2>Bienvenido</h2>
+      <p>Selecciona un botón para ver más información sobre diferentes marcas de smartphones.</p>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Juan Bernardo Rosas Torres. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

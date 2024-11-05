@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Información sobre Motorola</title>
+  <!-- Fuente de Google Fonts similar a la de Mercado Libre -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    h2 {
+      color: #3498db;
+      font-size: 24px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    ul {
+      font-size: 16px;
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    img {
+      max-width: 150px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Información sobre Motorola</h2>
+  <img src="https://lh3.googleusercontent.com/proxy/6LMy3bze9Y_-d8XiAJ_j4uDMqQIv6KySAGmQnhznWRvfjkq64BFZg7SQ6c7Wy6c5SFfcSEmLTSPbPXbj-WQ40JbSXp3j12J_aGYhKeBmFfQF8OPcsQ" alt="Logo de Motorola"/>
+  <p>Motorola es una marca de smartphones con más de 90 años de historia, conocida por su fiabilidad, innovación y precios competitivos. Se destacó en su época por ser pionera en la tecnología de comunicaciones móviles, y hoy en día continúa siendo una marca clave en el mercado de smartphones.</p>
+  <p>La marca ofrece una amplia gama de teléfonos inteligentes, desde modelos económicos hasta dispositivos de gama alta con características avanzadas. Entre los modelos más populares de Motorola se encuentran:</p>
+  <ul>
+    <li><strong>Moto G Series:</strong> Reconocida por ofrecer una excelente relación calidad-precio, con un diseño simple y especificaciones decentes. Ideal para usuarios que buscan un teléfono funcional sin gastar mucho dinero.</li>
+    <li><strong>Moto E Series:</strong> Dispositivos más asequibles y compactos, perfectos para usuarios con presupuestos limitados. A pesar de ser más baratos, ofrecen un rendimiento sorprendentemente bueno en tareas básicas.</li>
+    <li><strong>Moto Z Series:</strong> Equipados con características premium, como pantallas de alta resolución y compatibilidad con módulos Moto Mods, que permiten agregar diferentes accesorios como cámaras o altavoces de alta calidad.</li>
+  </ul>
+  <p>Motorola se destaca por ofrecer actualizaciones de software rápidas, lo que asegura que sus dispositivos se mantengan actualizados y seguros. La marca también ha ganado popularidad por ofrecer una experiencia de usuario más limpia, sin demasiados bloatwares o aplicaciones innecesarias. Además, Motorola sigue usando el sistema operativo Android de manera casi pura, lo que le da a sus teléfonos un rendimiento muy fluido.</p>
+  <p>Entre sus innovaciones más destacadas se incluyen la tecnología de pantallas de 90 Hz en modelos más económicos, y la incorporación de cámaras potentes con una buena relación calidad-precio, que se han convertido en uno de los puntos fuertes de la marca.</p>
+
+</body>
+</html>

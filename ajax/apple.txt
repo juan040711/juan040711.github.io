@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Información sobre Apple</title>
+  <!-- Fuente de Google Fonts similar a la de Mercado Libre -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    h2 {
+      color: #3498db;
+      font-size: 24px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    ul {
+      font-size: 16px;
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    img {
+      max-width: 150px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Información sobre Apple</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/800px-Apple_logo_black.svg.png" alt="Logo de Apple"/>
+  <p>Apple es una de las marcas más influyentes y reconocidas a nivel mundial, famosa por sus productos de diseño premium, tecnología de punta y un ecosistema muy cerrado pero eficiente. En el mundo de los smartphones, el iPhone ha sido el buque insignia de Apple desde su lanzamiento en 2007, marcando el comienzo de una nueva era en la telefonía móvil.</p>
+  <p>Apple ofrece una gama de dispositivos móviles con el sistema operativo iOS, conocido por su fluidez, facilidad de uso y una amplia variedad de aplicaciones optimizadas. Los modelos más populares incluyen:</p>
+  <ul>
+    <li><strong>iPhone 13 Series:</strong> La serie iPhone 13 incluye modelos como el iPhone 13, iPhone 13 Mini, iPhone 13 Pro y iPhone 13 Pro Max. Estos dispositivos ofrecen cámaras avanzadas, pantallas Super Retina XDR, y el chip A15 Bionic, que proporciona un rendimiento excepcional en todas las tareas. Además, ofrecen mejoras en la duración de la batería y son compatibles con 5G.</li>
+    <li><strong>iPhone 12 Series:</strong> Aunque el iPhone 13 ha superado al iPhone 12, este último sigue siendo una excelente opción por su rendimiento y precio más asequible. La serie iPhone 12 introdujo mejoras significativas en cámaras y rendimiento, así como un diseño renovado con bordes planos.</li>
+    <li><strong>iPhone SE:</strong> El iPhone SE es el modelo más asequible de Apple, diseñado para aquellos que buscan un iPhone con características de alta gama, pero con un precio más bajo. Ofrece el mismo chip A13 Bionic que los modelos de gama alta, pero en un diseño más compacto y con una sola cámara.</li>
+  </ul>
+  <p>Apple es famosa por su ecosistema, lo que significa que sus dispositivos funcionan de manera fluida e integrada. Con una sola cuenta de Apple ID, puedes sincronizar tus contactos, calendarios, fotos y más entre todos tus dispositivos Apple, incluyendo iPhone, iPad, MacBook, Apple Watch y Apple TV.</p>
+  <p>La marca también ha sido pionera en funciones de seguridad como Face ID (reconocimiento facial) y Touch ID (sensor de huella digital), así como en la integración de servicios de pago móvil con Apple Pay. Además, el soporte de software a largo plazo es una de las grandes ventajas de los dispositivos Apple, ya que reciben actualizaciones de iOS durante muchos años después de su lanzamiento.</p>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Información sobre Samsung</title>
+  <!-- Fuente de Google Fonts similar a la de Mercado Libre -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    h2 {
+      color: #3498db;
+      font-size: 24px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    ul {
+      font-size: 16px;
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    img {
+      max-width: 150px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Información sobre Samsung</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/1000px-Samsung_Logo.svg.png" alt="Logo de Samsung"/>
+  <p>Samsung es uno de los gigantes tecnológicos más reconocidos a nivel mundial, especialmente en el mercado de smartphones. Fundada en 1938 en Corea del Sur, Samsung ha sido pionera en muchas tecnologías, incluyendo pantallas AMOLED, cámaras avanzadas y procesadores de alto rendimiento.</p>
+  <p>En el ámbito de los smartphones, Samsung ofrece una amplia variedad de dispositivos que cubren todas las gamas. Desde teléfonos de entrada hasta modelos de gama alta que rivalizan con los mejores del mercado. Sus dispositivos más emblemáticos incluyen:</p>
+  <ul>
+    <li><strong>Samsung Galaxy S Series:</strong> Los dispositivos Galaxy S son conocidos por su rendimiento superior, cámaras de alta resolución, y pantallas AMOLED de calidad excepcional. Estos modelos están dirigidos a usuarios que buscan un smartphone de gama alta con las últimas tecnologías y características avanzadas.</li>
+    <li><strong>Samsung Galaxy Note Series:</strong> Aunque ahora se han fusionado en algunos aspectos con la serie Galaxy S, la línea Note sigue siendo un referente de productividad gracias a su pantalla grande y el S Pen, un lápiz digital que ofrece una experiencia única para tomar notas y hacer anotaciones precisas.</li>
+    <li><strong>Samsung Galaxy A Series:</strong> Una opción intermedia entre los modelos de gama alta y los de entrada, la serie A se caracteriza por tener un diseño premium, buena cámara y una experiencia fluida en el día a día. Es ideal para aquellos que quieren un teléfono de alta gama sin el precio exorbitante de los modelos S y Note.</li>
+    <li><strong>Samsung Galaxy M Series:</strong> Estos dispositivos son ideales para usuarios con presupuestos más ajustados pero que aún desean características modernas como pantallas grandes, buena duración de batería y cámaras decentes. Ofrecen una excelente relación calidad-precio.</li>
+  </ul>
+  <p>Samsung ha sido líder en la tecnología de pantallas, especialmente en la adopción de pantallas curvas y OLED. Además, sus cámaras siguen siendo de las mejores en el mercado, con sensores avanzados, capacidades de zoom y una excelente calidad de imagen en condiciones de poca luz. La compañía también se ha destacado por integrar características como la carga inalámbrica, resistencia al agua y al polvo, y baterías de larga duración.</p>
+  <p>Samsung sigue innovando con la tecnología de teléfonos plegables, siendo su línea Galaxy Z (Z Fold y Z Flip) un ejemplo de la vanguardia de la tecnología móvil, combinando la portabilidad de un smartphone tradicional con la flexibilidad de una pantalla plegable.</p>
+
+</body>
+</html>
