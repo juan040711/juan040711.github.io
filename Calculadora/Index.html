@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para Calculadora</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlazamos el archivo CSS -->
+</head>
+<body>
+    <form action="Calcular.php" method="post">
+        <div class="form-container">
+            <h2>Calculadora</h2> <!-- Título de la calculadora -->
+            Ingresa el primer valor:
+            <input type="text" name="valor1" required>
+            <br>
+            Ingresa el segundo valor:
+            <input type="text" name="valor2" required>
+            <br>
+
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="radio1" value="suma" required> Sumar
+                </label>
+                <label>
+                    <input type="radio" name="radio1" value="restar" required> Restar
+                </label>
+                <label>
+                    <input type="radio" name="radio1" value="multiplicar" required> Multiplicar
+                </label>
+                <label>
+                    <input type="radio" name="radio1" value="dividir" required> Dividir
+                </label>
+            </div>
+
+            <br><br>
+            <input type="submit" value="Operar">
+        </div>
+    </form>
+    <div class="footer">
+        <p>Creado por Juan Bernardo Rosas Torres, TecNM</p>
+    </div>
+</body>
+</html>

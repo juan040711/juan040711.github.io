@@ -1,0 +1,104 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #FF4E50, #1E3A8A); /* Degradado de rojo a azul */
+}
+
+/* Contenedor Principal */
+.form-container {
+    background-color: #f0f0f0; /* Fondo gris para el contenedor de los formularios */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Título */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los Resultados */
+.resultado {
+    font-size: 18px;
+    color: #1E3A8A; /* Azul para los resultados */
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Estilos para los Formularios */
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #FF4E50; /* Rojo en los bordes */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+/* Grupo de Radio Buttons */
+.radio-group {
+    text-align: left;
+    margin: 20px 0;
+}
+
+/* Estilo de los radio buttons y etiquetas */
+.radio-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Botón de Enviar */
+input[type="submit"] {
+    background-color: #1E3A8A; /* Azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #374151; /* Gris oscuro en hover */
+}
+
+/* Links */
+a {
+    color: #1E3A8A; /* Azul */
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Créditos al pie de página */
+.footer {
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
